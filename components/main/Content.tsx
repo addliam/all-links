@@ -2,7 +2,7 @@ import React from "react";
 import UserCard from "./user/UserCard";
 const Content = () => {
   return (
-    <div>
+    <div className="h-screen w-full bg-lightGray ">
       <UserCard />
     </div>
   );

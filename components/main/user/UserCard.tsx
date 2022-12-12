@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const UserCard = () => {
   return (
-    <div className="debug1 flex flex-row h-[112px] w-[740px] items-center justify-between rounded-[1em] px-[24px] py-[24px]">
+    <div className="bg-white box_shadow flex flex-row h-[112px] w-[740px] items-center justify-between rounded-[1em] px-[24px] py-[24px]">
       <div className="flex gap-2">
         <div className="rounded-[50%] w-fit h-fit overflow-hidden">
           <Image
