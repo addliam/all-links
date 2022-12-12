@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.hover_scale:hover {
+  transform: scale(1.12);
+}
+
 .debug {
   border: 1px solid #000000;
 }

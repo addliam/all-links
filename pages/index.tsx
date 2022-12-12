@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Content from "../components/main/Content";
 import Navbar from "../components/main/Navbar";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main className="flex flex-row">
         <Navbar />
+        <Content />
 
         {/* <Image
           className="svg"
